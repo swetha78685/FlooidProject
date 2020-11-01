@@ -60,6 +60,7 @@ public class Base {
 	public boolean sendkeys(By locator, String testdata,String locatorName) {
 		boolean flag=false;
 		try {
+			driver.findElement(locator).clear();
 			driver.findElement(locator).sendKeys(testdata);
 			System.out.println("Successfully clicked on the web element "+locatorName);
 			flag=true;
