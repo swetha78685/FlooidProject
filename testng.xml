@@ -1,0 +1,23 @@
+<suite name="testng sample suite">
+	<!-- <parameter name="appURL" value="https://www.testandquiz.com/selenium/testing.html"></parameter> -->
+	<test name="sample test">
+		<!-- <groups>
+			<run>
+				<include name="smoke test" />
+			</run>
+		</groups> -->
+		<classes>
+			<!-- <class name="Selenium.WebdriverTraining.FlipkartTestngExample">
+				<methods> <include name="checkInProductTest"></include> <include 
+					name="launchApp"></include> </methods>
+			</class> -->
+			<!-- <class name="Selenium.WebdriverTraining.FlipkartExample1"> -->
+			<!-- </class> -->
+			<!-- <class name="testscripts.FlipkartExample"> -->
+			<class name="testscripts.FlipkartScenario">
+			</class>
+		</classes>
+	</test>
+</suite>
+
+

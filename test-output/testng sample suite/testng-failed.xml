@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng sample suite]">
+  <parameter name="appURL" value="https://www.testandquiz.com/selenium/testing.html"/>
+  <test thread-count="5" name="sample test(failed)">
+    <classes>
+      <class name="Selenium.WebdriverTraining.Testandquizexcercise1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="launch"/>
+          <include name="linkText"/>
+        </methods>
+      </class> <!-- Selenium.WebdriverTraining.Testandquizexcercise1 -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [testng sample suite] -->
